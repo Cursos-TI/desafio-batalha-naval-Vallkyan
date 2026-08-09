@@ -28,7 +28,10 @@ int main() {
     
 
     //Saída de Dados para o Usuário
-    
+    printf("BATALHA NAVAL");
+    for (int i = 0; i < 10; i++);
+    for (int j = 0; j < 10; j++); 
+    printf("%d ", tabuleiro[i][j]);
 
 // Fechamento do aplicativo
 return 0;}
