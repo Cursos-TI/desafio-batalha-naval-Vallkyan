@@ -17,12 +17,18 @@ int main() {
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}     
     };
-    //Representação dos Navios
-    int navioHorizontal[3] = {3, 3, 3};
-    int navioVertical[3] = {3, 3, 3};
+    // Representação e Posicionamento do Navio Horizontal 
+    tabuleiro[2][2] = 3;
+    tabuleiro[2][3] = 3;
+
+    // Representação e Posicionamento do Navio Vertical
+    tabuleiro[4][5] = 3;
+    tabuleiro[5][5] = 3;
+    tabuleiro[6][5] = 3;
+    
 
     //Saída de Dados para o Usuário
-
+    
 
 // Fechamento do aplicativo
 return 0;}
